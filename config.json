@@ -1,0 +1,11 @@
+{
+    "twoCaptcha": "<twocaptcha_apikey>",
+    "accounts": [
+        {
+            "username": "<roblox_username>",
+            "authToken": "<rblxwild_authToken>",
+            "session": "<rblxwild_session>",
+            "useragent": "<fake_useragent>"
+        }
+    ]
+}
