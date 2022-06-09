@@ -8,6 +8,7 @@ Automatically joins RBLXWILD rains
   - <rblxwild_authToken> to your RBLXWILD authToken (Can be found in localstorage)
   - <rblxwild_session> to your RBLXWILD session (Can be found in cookies)
   - <fake_useragent> to an browser useragent ([What is my useragent?](https://www.whatismybrowser.com/detect/what-is-my-user-agent/))
+  - Make sure to remove the '<' and '>'
   
 - Install dependencies
   - (Windows) py -m pip install -r requirements.txt
