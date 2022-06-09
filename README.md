@@ -1,4 +1,4 @@
-# betterAutoJoiner
+# betterAutoJoiner - simply better
 Automatically joins RBLXWILD rains
 
 # Usage
