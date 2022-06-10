@@ -20,5 +20,5 @@ Automatically joins RBLXWILD rains
 - Supports multiple accounts at once by adding them to config.json
 
 # Contact
-- Discord: Odsku#8085
+- Discord: betterSupport#8964
 - Matrix: @odsku:matrix.org

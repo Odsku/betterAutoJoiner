@@ -1,10 +1,4 @@
-import os, json, re
-
-def load_config(filename):
-    configFile = open(filename)
-    config = json.loads(configFile.read())
-    configFile.close()
-    return config
+import os, re
 
 def strip(message):
     try:

@@ -1,13 +1,16 @@
-import time, requests
+import os, time, requests
 
 def LoadFromArray(array):
     sessions = []
-    for acc in array:
+
+    count = 1
+    while os.getenv(f"USERNAME{count}") != None:
         new_session = RBLXWild()
-        new_session.username = acc["username"]
-        new_session.authToken = acc["authToken"]
-        new_session.session = acc["session"]
-        new_session.useragent = acc["useragent"]
+        new_session.username = os.getenv(f"USERNAME{count}")
+        new_session.authToken = os.getenv(f"AUTHTOKEN{count}")
+        new_session.session = os.getenv(f"SESSION{count}")
+        new_session.useragent = os.getenv(f"USERAGENT{count}")
+        new_session.proxy = os.getenv(f"PROXY{count}")
 
         sessions.append(new_session)
     
@@ -18,6 +21,7 @@ class RBLXWild:
     authToken = None
     session = None
     useragent = None
+    proxy = None
 
 
     # Join pot #
