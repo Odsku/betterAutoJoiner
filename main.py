@@ -15,8 +15,6 @@ print("WARNING\t\tIf you bought it you got scammed\t\tWARNING")
 print("INFO\t\tContact betterSupport#8964 for help\t\tINFO")
 print("\t  Copyright © 2022 Odsku. All rights reserved.\n")
 
-quit()
-
 # Load from .env #
 dotenv_path = join(dirname(__file__), ".env")
 load_dotenv(dotenv_path)

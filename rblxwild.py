@@ -1,6 +1,6 @@
 import os, time, requests
 
-def LoadFromArray(array):
+def LoadFromEnv():
     sessions = []
 
     count = 1
