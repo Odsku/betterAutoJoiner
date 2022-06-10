@@ -1,18 +1,18 @@
-# betterAutoJoiner
+# betterAutoJoiner - simply better
 Automatically joins RBLXWILD rains
 
 # Usage
-- Change in config.json
-  - <twocaptcha_apikey> to your 2captcha apikey (Create an account to [https://2captcha.com](https://2captcha.com?from=14049096))
-  - <roblox_username> to your roblox username (Optional)
-  - <rblxwild_authToken> to your RBLXWILD authToken (Can be found in localstorage)
-  - <rblxwild_session> to your RBLXWILD session (Can be found in cookies)
-  - <fake_useragent> to an browser useragent ([What is my useragent?](https://www.whatismybrowser.com/detect/what-is-my-user-agent/))
+- Installation
+  - python setup.py
+
+- Configuration (.env)
+  - APIKEY_2CAPTCHA to your 2captcha apikey (Create an account to [https://2captcha.com](https://2captcha.com?from=14049096))
+  - USERNAME to your roblox username (Optional)
+  - AUTHTOKEN to your RBLXWILD authToken (Can be found in localstorage)
+  - SESSION to your RBLXWILD session (Can be found in cookies)
+  - USERAGENT to an browser useragent ([What is my useragent?](https://www.whatismybrowser.com/detect/what-is-my-user-agent/))
+  - PROXY to an SOCKS4 or SOCKS5 proxy (Optional)
   
-- Install dependencies
-  - (Windows) py -m pip install -r requirements.txt
-  - (Linux) python3 -m pip install -r requirements.txt
-  - (MacOS) python3 -m pip install -r requirements.txt
 
 # Features
 - Auto joins rain
