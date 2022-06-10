@@ -1,4 +1,4 @@
-# betterAutoJoiner - simply better
+# betterAutoJoiner
 Automatically joins RBLXWILD rains
 
 # Usage
@@ -8,7 +8,6 @@ Automatically joins RBLXWILD rains
   - <rblxwild_authToken> to your RBLXWILD authToken (Can be found in localstorage)
   - <rblxwild_session> to your RBLXWILD session (Can be found in cookies)
   - <fake_useragent> to an browser useragent ([What is my useragent?](https://www.whatismybrowser.com/detect/what-is-my-user-agent/))
-  - Make sure to remove the '<' and '>'
   
 - Install dependencies
   - (Windows) py -m pip install -r requirements.txt
@@ -21,4 +20,5 @@ Automatically joins RBLXWILD rains
 - Supports multiple accounts at once by adding them to config.json
 
 # Contact
-- Discord: betterSupport#8964
+- Discord: Odsku#8085
+- Matrix: @odsku:matrix.org
