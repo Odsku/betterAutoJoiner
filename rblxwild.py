@@ -13,6 +13,8 @@ def LoadFromEnv():
         new_session.proxy = os.getenv(f"PROXY{count}")
 
         sessions.append(new_session)
+        
+        count += 1
     
     return sessions
 
