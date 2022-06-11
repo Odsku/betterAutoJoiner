@@ -17,7 +17,7 @@ Automatically joins RBLXWILD rains
 # Features
 - Auto joins rain
 - Low cpu usage and accurate
-- Supports multiple accounts at once by adding them to config.json
+- Supports multiple accounts at once by adding them to .env
 
 # Contact
 - Discord: betterSupport#8964
