@@ -21,4 +21,3 @@ Automatically joins RBLXWILD rains
 
 # Contact
 - Discord: betterSupport#8964
-- Matrix: @odsku:matrix.org
