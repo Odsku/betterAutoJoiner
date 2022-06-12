@@ -2,7 +2,7 @@
 Automatically joins RBLXWILD rains
 
 # Tutorial
-  https://www.youtube.com/watch?v=o2T-XJ3K0UE
+  - https://www.youtube.com/watch?v=o2T-XJ3K0UE
 
 # Usage
 - Installation
