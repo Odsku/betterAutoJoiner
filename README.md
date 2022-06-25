@@ -18,17 +18,17 @@ Automatically joins RBLXWILD rains
   
 - Start the joiner
   - python main.py
-  
-# Common issues
-  - ISSUE: timeout exceed 120.0 (worker failed to complete captcha before the captcha expired) 
-    - FIX: send captcha to be completed 100 seconds before the rain can be joined
-  - ISSUE: closes instantly after running main.py / setup.py 
-    - FIX: make sure you are running the same version as in runtime.txt
 
 # Features
 - Auto joins rain
 - Low cpu usage and accurate
 - Supports multiple accounts at once by adding them to .env
+
+# Common issues
+  - ISSUE: timeout exceed 120.0 (worker failed to complete captcha before the captcha expired) 
+    - FIX: send captcha to be completed 100 seconds before the rain can be joined
+  - ISSUE: closes instantly after running main.py / setup.py 
+    - FIX: make sure you are running the same version as in runtime.txt
 
 # Contact
 - Discord: betterSupport#8964
