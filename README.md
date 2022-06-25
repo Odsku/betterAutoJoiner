@@ -16,6 +16,14 @@ Automatically joins RBLXWILD rains
   - USERAGENT to an browser useragent ([What is my useragent?](https://www.whatismybrowser.com/detect/what-is-my-user-agent/))
   - PROXY to an SOCKS4 or SOCKS5 proxy (Optional)
   
+- Start the joiner
+  - python main.py
+  
+# Common issues
+  - ISSUE: timeout exceed 120.0 (worker failed to complete captcha before the captcha expired) 
+    - FIX: send captcha to be completed 100 seconds before the rain can be joined
+  - ISSUE: closes instantly after running main.py / setup.py 
+    - FIX: make sure you are running the same version as in runtime.txt
 
 # Features
 - Auto joins rain
